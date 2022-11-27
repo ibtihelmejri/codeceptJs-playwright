@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669548414843' stop='1669548420076'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1669548415431' status='passed' stop='1669548420069'>
+            <name>authentifacation user</name>
+            <title>authentifacation user</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1669548416030' status='passed' stop='1669548418905'>
+                    <name>I am on page "/signin"</name>
+                    <title>I am on page "/signin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669548418906' status='passed' stop='1669548418940'>
+                    <name>I see "Se connecter"</name>
+                    <title>I see "Se connecter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669548418941' status='passed' stop='1669548419572'>
+                    <name>I fill field "//input[@id='email']", "jean.dujardin@gmail.com"</name>
+                    <title>I fill field "//input[@id='email']", "jean.dujardin@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669548419573' status='passed' stop='1669548419873'>
+                    <name>I fill field "#password", "Jean123*"</name>
+                    <title>I fill field "#password", "Jean123*"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669548419873' status='passed' stop='1669548420057'>
+                    <name>I click "//div[@class='mt-3']"</name>
+                    <title>I click "//div[@class='mt-3']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669548420057' status='passed' stop='1669548420063'>
+                    <name>I see "Gestion des utilisateurs"</name>
+                    <title>I see "Gestion des utilisateurs"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669548420063' status='passed' stop='1669548420069'>
+                    <name>I dont see "Se connecter"</name>
+                    <title>I dont see "Se connecter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
