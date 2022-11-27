@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669548221683' stop='1669548226260'>
+    <name>register:</name>
+    <title>register:</title>
+    <test-cases>
+        <test-case start='1669548222335' status='failed' stop='1669548226135'>
+            <name>register account </name>
+            <title>register account </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1669548223045' status='passed' stop='1669548225399'>
+                    <name>I am on page "/signup"</name>
+                    <title>I am on page "/signup"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669548225400' status='passed' stop='1669548225430'>
+                    <name>I see "Créer un compte"</name>
+                    <title>I see "Créer un compte"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669548225430' status='passed' stop='1669548225897'>
+                    <name>I fill field "//input[@id='email']", "aline.ropert@gmail.com"</name>
+                    <title>I fill field "//input[@id='email']", "aline.ropert@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669548225897' status='passed' stop='1669548226123'>
+                    <name>I fill field "#password", "Aline123*"</name>
+                    <title>I fill field "#password", "Aline123*"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669548226123' status='failed' stop='1669548226135'>
+                    <name>I click "Register"</name>
+                    <title>I click "Register"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='59eaef48-f0d1-4021-8e6b-e4a84d193126-attachment.png' type='image/png' size='819205'/>
+            </attachments>
+            <failure>
+                <message>Clickable element "Register" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "Register" was not found by text|CSS|XPath
+                    at new ElementNotFound (/home/ibtihel/Documents/projets/exercices/codeceptjs/codeceptJs-playwright/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/home/ibtihel/Documents/projets/exercices/codeceptjs/codeceptJs-playwright/node_modules/codeceptjs/lib/helper/Playwright.js:2766:11)
+                    at Playwright.proceedClick (/home/ibtihel/Documents/projets/exercices/codeceptjs/codeceptJs-playwright/node_modules/codeceptjs/lib/helper/Playwright.js:2542:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

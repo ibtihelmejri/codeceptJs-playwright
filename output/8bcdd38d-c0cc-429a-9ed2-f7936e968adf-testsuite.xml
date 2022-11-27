@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669547684787' stop='1669547689913'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1669547686090' status='passed' stop='1669547689893'>
+            <name>signup</name>
+            <title>signup</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1669547686881' status='passed' stop='1669547688718'>
+                    <name>I am on page "/signup"</name>
+                    <title>I am on page "/signup"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669547688719' status='passed' stop='1669547688760'>
+                    <name>I see "Se connecter"</name>
+                    <title>I see "Se connecter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669547688760' status='passed' stop='1669547689339'>
+                    <name>I fill field "//input[@id='email']", "lora.david@gmail.com"</name>
+                    <title>I fill field "//input[@id='email']", "lora.david@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669547689340' status='passed' stop='1669547689649'>
+                    <name>I fill field "#password", "Lora123*"</name>
+                    <title>I fill field "#password", "Lora123*"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669547689650' status='passed' stop='1669547689892'>
+                    <name>I click "//div[@class='mt-3']"</name>
+                    <title>I click "//div[@class='mt-3']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
